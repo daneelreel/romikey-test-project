@@ -1,0 +1,9 @@
+@keyframes running-line {
+    0% {
+      transform: translate3d(calc(-25% + 20vw), 0, 1px);
+    }
+  
+    100% {
+      transform: translate3d(calc(-50% + 20vw), 0, 1px);
+    }
+  }

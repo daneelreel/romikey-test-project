@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги компании Romikey</title>
+  <meta name="description" content="RomiKey Test Project - тестовая страница с услугами компании RomiKey">
+  <link rel="stylesheet" href="./swiper/swiper.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/animation.css" />
+  <link rel="stylesheet" href="./fonts/font.css" />
+
+  <link rel="icon" href="./images/favicon-512x512.png" sizes="32x32">
+  <link rel="icon" href="./images/favicon-512x512.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./images/favicon-512x512.png">
+</head>
+
+<body>
+  <header class="header">
+    <ul class="running-line running-line_type_header"></ul>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="about">
+        <h1 class="main_title">услуги</h1>
+        <p class="about__text">
+          Мы&nbsp;оказываем комплекс различных услуг и&nbsp;предоставляем широкий выбор пактов&nbsp;&mdash;
+          от&nbsp;разовых до&nbsp;полного сопровождения группы проектов по&nbsp;всем направлениям.
+        </p>
+      </div>
+      <div class="service-slider swiper">
+        <ul class="service-list swiper-wrapper"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="running-line running-line_type_footer"></ul>
+  </footer>
+
+  <template data-id="runningLineItemTemplate">
+    <li class="running-line__item">
+      <img src="" alt="" class="running-line__image">
+    </li>
+  </template>
+
+  <template data-id="serviceTemplate">
+    <li class="service swiper-slide">
+      <div class="service__top">
+        <h2 class="secondary_title service__name"></h2>
+        <p class="service__price"></p>
+      </div>
+      <div class="service__bottom">
+        <ul class="responsibilitie-list"></ul>
+      </div>
+      <a href="" target="_blank" rel="noopener noreferrer" class="service__link">
+        На страницу
+      </a>
+    </li>
+  </template>
+
+  <script src="./swiper/swiper.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
